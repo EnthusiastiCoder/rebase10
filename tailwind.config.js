@@ -14,12 +14,11 @@ module.exports = {
         heading: ["Komika Slick"],
       },
       dropShadow: {
-        brand: [
-
-          "-0.5px -0.5px 0px rgba(5,65,251,1)",
-          "1px -2px 0px rgba(5,65,251,1)",
-          "-1px 1px 0px rgba(5,65,251,1)",
-          "5px 5px 0px rgba(5,65,251,1)",
+        heading: [
+          "-0.045vw -0.045vw 0px rgba(5,65,251,1)",
+          "0.09vw -0.18vw 0px rgba(5,65,251,1)",
+          "-0.09vw 0.09vw 0px rgba(5,65,251,1)",
+          "0.45vmax 0.45vmax 0px rgba(5,65,251,1)",
         ],
       }
     },

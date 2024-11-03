@@ -1,4 +1,5 @@
 import banner from './images/banner.svg';
+import onboarding from './images/onboarding.svg';
 import instagram from './images/instagram.svg';
 import twitter from './images/twitter.svg';
 import discord from './images/discord.svg';
@@ -17,7 +18,8 @@ function Onboarding() {
   return (
     <div className='w-full bg-white h-screen relative overflow-x-hidden'>
         <img src={banner} className='max-h-[28vh] max-w-[80%] mx-auto pt-[1.5vh]' alt='banner' />
-        <div className='absolute left-[calc(4px+0.5%)] flex flex-col items-center w-[calc(40px+4%)] top-[15vh] gap-[2vh]'>
+        <img src={onboarding} className='absolute z-20 max-h-[60vh] max-w-[50%] left-[50%] mt-[-10%]' alt='onboarding' />
+        <div className='absolute left-[calc(8px+1%)] flex flex-col items-center w-[calc(40px+4%)] top-[15vh] gap-[2vh]'>
             {sidebar.map((item) => {
                 return (
                     <a href={item.href} rel="noopener noreferrer" target="_blank" className='hover:scale-110 duration-700'>
